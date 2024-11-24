@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">  
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>N5 Study Cards</title>
+        <link rel="icon" type="image/x-icon" href="/img/icons/icon-512.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" type="module"></script>
+    </head>
+    <body>
+        <header>
+            <h1>N5 Study Cards</h1>
+            <h2 class="instructions">Move mouse over or tap card to flip.</h2>
+        </header>
+        <main>
+            <section class="flip-card">
+                    <div class="flip-card-inner" id="card-inner">
+                      <div class="flip-card-front">
+                        <img src="img/sys/0F.svg" alt="Flip card front" id="frontIMG">
+                      </div>
+                      <div class="flip-card-back">
+                        <img src="img/sys/0B.svg" alt="Flip card back" id="backIMG">
+                      </div>
+                    </div> 
+            </section>
+            <section class="buttons">
+              <nav class="cardButtons">
+                <button class="button" id="previous-card" type="button">Back</button> 
+                <button class="button" id="next-card" type="button">Next</button> 
+                <button class="button" id="random" type="button">Random</button> 
+              </nav>
+              <nav class="sectionButtons">
+                <button class="button" id="sys" type="button">Computer Systems</button> 
+                <button class="button" id="sdd" type="button">Software Development</button> 
+                <button class="button" id="ddd" type="button">Database Development</button> 
+              </nav>
+            </section>
+        </main>
+        <footer>
+          <h2>Created by Mr Moyler for Rosshall Academy, Glasgow. 2024.</h2>
+        </footer>
+    </body>
+</html>
